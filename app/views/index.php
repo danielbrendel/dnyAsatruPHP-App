@@ -18,7 +18,7 @@
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-repo" type="button" onclick="window.open('https://packagist.org/packages/dnyc/asatru-php');">Visit on Packagist</button>&nbsp;
+				<button class="button btn-col-repo" type="button" onclick="window.open('https://packagist.org/packages/danielbrendel/asatru-php');">Visit on Packagist</button>&nbsp;
 			</div>
 
 			<div class="link">

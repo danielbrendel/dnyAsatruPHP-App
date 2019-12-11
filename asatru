@@ -13,10 +13,10 @@
 */
 
 //Require constants
-require_once __DIR__ . '/vendor/dnyc/asatru-php-framework/src/constants.php';
+require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/constants.php';
 
 //Require .env config management
-require_once __DIR__ . '/vendor/dnyc/asatru-php-framework/src/dotenv.php';
+require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/dotenv.php';
 
 //Parse .env file if it exists
 if (file_exists('.env')) {
@@ -24,10 +24,10 @@ if (file_exists('.env')) {
 }
 
 //Include CLI handler
-require_once __DIR__ . '/vendor/dnyc/asatru-php-framework/src/console.php';
+require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/console.php';
 
 //Require database handler
-require_once __DIR__ . '/vendor/dnyc/asatru-php-framework/src/database.php';
+require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/database.php';
 
 //Process further if in debug mode
 if ($_ENV['APP_DEBUG']) {

@@ -3,7 +3,7 @@
 /*
     Asatru PHP - Example controller
 
-    Add here all your needed routes implementations.
+    Add here all your needed routes implementations related to 'index'.
 */
 
 use Asatru\View;

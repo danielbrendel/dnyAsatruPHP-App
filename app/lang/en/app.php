@@ -4,6 +4,8 @@
 	Asatru PHP - English language file
 
 	Extend this with your phrases
+	
+	Set variables with {variable-name}
 */
 
 return [

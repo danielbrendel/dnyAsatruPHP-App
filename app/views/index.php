@@ -22,16 +22,16 @@
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-doc" type="button" onclick="location.href='<?= Asatru\Helper\base_url(); ?>/doc/documentation.pdf'">Documentation</button>
+				<button class="button btn-col-doc" type="button" onclick="location.href='{{ Asatru\Helper\base_url() }}/doc/documentation.pdf'">Documentation</button>
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-contact" type="button" onclick="location.href='mailto:{{ FW_CONTACT }}'">Contact me</button>
+				<button class="button btn-col-contact" type="button" onclick="location.href='mailto:{{ ASATRU_FW_CONTACT }}'">Contact me</button>
 			</div>
 		</div>
 
 		<div class="footer">
-			<center>&copy; 2019 {{ FW_AUTHOR }} - licensed under the MIT license</center>
+			<center>&copy; 2019 {{ ASATRU_FW_AUTHOR }} - licensed under the MIT license</center>
 		</div>
 	</div>
 </div>

@@ -13,3 +13,7 @@ RewriteRule ^(.*)$ index.php [QSA]
 # Disallow specific resources
 RewriteRule /?\.env$ - [F,L]
 RewriteRule /?\.htaccess$ - [F,L]
+
+# Disallow specific resources
+RewriteRule /?\.env$ - [F,L]
+RewriteRule /?\.htaccess$ - [F,L]

@@ -20,16 +20,16 @@ class ExampleModel extends \Asatru\Database\Model {
     {
         //Query text from database
 
-        $result = ExampleModel::raw('SELECT text FROM ' . self::tableName() . ' WHERE id = :id', array(':id' => $id));
+        $result = ExampleModel::raw('SELECT text FROM ' . self::tableName() . ' WHERE id = ?', array($id));
         
-        return $result[0]['text'];
+        return $result->get(0)->get('text');
     }
 
     public static function setText($id, $text)
     {
         //Set text into table
 
-        ExampleModel::raw('UPDATE ' . self::tableName() . ' set text = :text WHERE id = :id;', array(':text' => $text, ':id' => $id));
+        ExampleModel::raw('UPDATE ' . self::tableName() . ' set text = ? WHERE id = ?;', array($text, $id));
     }
 
     public static function tableName()

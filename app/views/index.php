@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="footer">
-			<center>&copy; 2019 {{ ASATRU_FW_AUTHOR }} - licensed under the MIT license</center>
+			<div class="centered">&copy; 2019 {{ ASATRU_FW_AUTHOR }} - licensed under the MIT license</div>
 		</div>
 	</div>
 </div>

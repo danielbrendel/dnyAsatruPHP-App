@@ -1,10 +1,17 @@
 <?php
 
+/**
+ * Example error 404 controller
+ */
 class Error404Controller {
+	/**
+	 * Handles special case: $404
+	 * 
+	 * @param Asatru\Controller\ControllerArg $request
+	 * @return Asatru\View\ViewHandler
+	 */
 	public function index($request)
 	{
-		//Handles special case: $404
-		
 		//Add a log line
 		addLog(Asatru\Logger\LOG_INFO, "Error 404");
 

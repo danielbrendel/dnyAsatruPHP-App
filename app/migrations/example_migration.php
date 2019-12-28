@@ -4,15 +4,29 @@
     Asatru PHP - Example migration
 */
 
+/**
+ * Example migration class
+ */
 class Example_migration_Migration {
     private $database = null;
     private $connection = null;
 
+    /**
+     * Construct class and store PDO connection handle
+     * 
+     * @param \PDO $pdo
+     * @return void
+     */
     public function __construct($pdo)
     {
         $this->connection = $pdo;
     }
 
+    /**
+     * Called when the table shall be created or modified
+     * 
+     * @return void
+     */
     public function up()
     {
         $this->database = new Asatru\Database\Migration('example_migration', $this->connection);
@@ -23,6 +37,11 @@ class Example_migration_Migration {
         $this->database->create();
     }
 
+    /**
+     * Called when the table shall be dropped
+     * 
+     * @return void
+     */
     public function down()
     {
         $this->database = new Asatru\Database\Migration('example_migration', $this->connection);

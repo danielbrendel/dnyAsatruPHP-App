@@ -35,6 +35,9 @@ require_once __DIR__ . '/../../vendor/danielbrendel/asatru-php-framework/src/aut
 //Require helpers
 require_once __DIR__ . '/../../vendor/danielbrendel/asatru-php-framework/src/helper.php';
 
+//Require mail wrapper
+require_once __DIR__ . '/../../vendor/danielbrendel/asatru-php-framework/src/mailwrapper.php';
+
 //Require testing component
 require_once __DIR__ . '/../../vendor/danielbrendel/asatru-php-framework/src/testing.php';
 

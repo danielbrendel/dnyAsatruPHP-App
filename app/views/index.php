@@ -22,7 +22,7 @@
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-doc" type="button" onclick="location.href='{{ Asatru\Helper\base_url() }}/doc/documentation.pdf'">Documentation</button>
+				<button class="button btn-col-doc" type="button" onclick="location.href='{{ base_url() }}/doc/documentation.pdf'">Documentation</button>
 			</div>
 
 			<div class="link">

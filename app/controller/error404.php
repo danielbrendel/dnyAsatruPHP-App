@@ -13,7 +13,7 @@ class Error404Controller {
 	public function index($request)
 	{
 		//Add a log line
-		addLog(Asatru\Logger\LOG_INFO, "Error 404");
+		addLog(LOG_INFO, "Error 404");
 
 		//Generate the 404 view
 		$v = new Asatru\View\ViewHandler();

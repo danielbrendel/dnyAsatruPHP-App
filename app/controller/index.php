@@ -6,10 +6,6 @@
     Add here all your needed routes implementations related to 'index'.
 */
 
-use Asatru\View;
-use Asatru\Helper;
-use App\Models\ExampleModel;
-
 /**
  * Example index controller
  */

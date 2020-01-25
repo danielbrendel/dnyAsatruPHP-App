@@ -15,5 +15,6 @@ return [
     'item_too_short' => 'Item length of {key} must be greater than {min}',
     'item_too_large' => 'Item length of {key} must be less than {max}',
     'item_datetime' => 'Item {key} is not a valid datetime object',
-    'item_number' => 'Item {key} is not a valid number'
+    'item_number' => 'Item {key} is not a valid number',
+	'item_regex' => 'Item {key} does not fit pattern {pattern}'
 ];

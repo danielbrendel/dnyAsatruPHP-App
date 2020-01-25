@@ -18,5 +18,6 @@
 return [
     array('/', 'GET', 'index@index'),
     array('/index', 'GET', 'index@index'),
+	array('/test/{foo}/another/{bar}', 'GET', 'index@test'),
     array('$404', 'ANY', 'error404@index')
 ];

@@ -18,10 +18,8 @@ class IndexController {
 	 */
 	public function index($request)
 	{
-		//Generate and return a view
-		return (new Asatru\View\ViewHandler())
-			->setLayout('layout') //The layout file. Will be \app\view\layout.php
-			->setYield('yield', 'index'); //The index yield. Will be \app\view\index.php
+		//Generate and return a view by using the helper
+		return view('layout', array(array('yield', 'index')));
 	}
 	
 	/**
@@ -32,7 +30,7 @@ class IndexController {
 	 */
 	public function test($request)
 	{
-		//Generate and return a view
+		//Generate and return a view by using Asatru\View\ViewHandler() directly
 		return (new Asatru\View\ViewHandler())
 			->setLayout('layout') //The layout file. Will be \app\view\layout.php
 			->setYield('yield', 'index') //The index yield. Will be \app\view\index.php

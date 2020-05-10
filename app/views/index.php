@@ -14,7 +14,7 @@
 
 		<div class="links">
 			<div class="link">
-				<button class="button btn-col-repo" type="button" onclick="window.open('https://github.com/danielbrendel/dnyAsatruPHP');">Visit on GitHub</button>&nbsp;
+				<button class="button btn-col-repo" type="button" onclick="window.open('https://github.com/danielbrendel/dnyAsatruPHP-Framework');">Visit on GitHub</button>&nbsp;
 			</div>
 
 			<div class="link">

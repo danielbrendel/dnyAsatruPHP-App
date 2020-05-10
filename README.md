@@ -46,7 +46,7 @@ The documentation is located in the /doc directory.
 ## Requirements
 + PHP >= 7.3.8
 + PHP PDO extension
-+ For databases either MySQL, SQLite, MS SQL Server or Oracle
++ MySQL when database needed
 
 ## Changelog:
 + Version 0.1:

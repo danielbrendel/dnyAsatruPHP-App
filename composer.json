@@ -20,5 +20,10 @@
 	"require": {
         "php": ">=7.3.8",
 		"danielbrendel/asatru-php-framework": "dev-master"
-    }
+    },
+	"scripts": {
+		"post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+	}
 }

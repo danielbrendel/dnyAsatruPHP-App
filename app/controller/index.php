@@ -6,6 +6,8 @@
     Add here all your needed routes implementations related to 'index'.
 */
 
+use Asatru\SMTPMailer\SMTPMailer;
+
 /**
  * Example index controller
  */

@@ -2,3 +2,4 @@
 /app/db
 /vendor
 .env
+.phpunit.result.cache

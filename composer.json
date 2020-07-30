@@ -19,7 +19,8 @@
     "prefer-stable": true,
 	"require": {
         "php": ">=7.3.8",
-		"danielbrendel/asatru-php-framework": "dev-master"
+		"danielbrendel/asatru-php-framework": "dev-master",
+        "phpmailer/phpmailer": "^6.1"
     },
 	"scripts": {
 		"post-root-package-install": [

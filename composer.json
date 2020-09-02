@@ -20,7 +20,8 @@
 	"require": {
         "php": ">=7.3.8",
 		"danielbrendel/asatru-php-framework": "dev-master",
-        "phpmailer/phpmailer": "^6.1"
+        "phpmailer/phpmailer": "^6.1",
+        "nesbot/carbon": "^2.0"
     },
 	"scripts": {
 		"post-root-package-install": [

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "455a3a7f2bb490e63c57a2f5730d6101",
+    "content-hash": "65ba7f2ec03a4d15ad53421a9adf845f",
     "packages": [
         {
             "name": "danielbrendel/asatru-php-framework",
@@ -12,16 +12,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielbrendel/dnyAsatruPHP-Framework.git",
-                "reference": "dda9dad9f09546ba616d94a09131ccaf011e414e"
+                "reference": "4decfabba33150d218ac89ee3433fc1e4535f8d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/dda9dad9f09546ba616d94a09131ccaf011e414e",
-                "reference": "dda9dad9f09546ba616d94a09131ccaf011e414e",
+                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/4decfabba33150d218ac89ee3433fc1e4535f8d0",
+                "reference": "4decfabba33150d218ac89ee3433fc1e4535f8d0",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3.8",
+                "php": ">=7.4.6",
                 "phpunit/phpunit": "^8"
             },
             "type": "library",
@@ -41,7 +41,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2020-09-02T23:03:37+00:00"
+            "time": "2020-09-03T00:10:04+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -2101,7 +2101,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.3.8"
+        "php": ">=7.4.6"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"

@@ -1,6 +1,6 @@
 {
     "name": "danielbrendel/asatru-php",
-	"version": "0.1",
+	"version": "1.0",
     "description": "A lightweight PHP framework",
     "type": "project",
     "license": "MIT",
@@ -18,7 +18,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
 	"require": {
-        "php": ">=7.3.8",
+        "php": ">=7.4.6",
 		"danielbrendel/asatru-php-framework": "dev-master",
         "phpmailer/phpmailer": "^6.1",
         "nesbot/carbon": "^2.0"

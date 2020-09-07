@@ -41,6 +41,7 @@ This product is a lightweight PHP framework which can be used to create your own
 ## Installation
 The installation of this framework is just one composer command away:
 + composer require danielbrendel/asatru-php-framework
+
 To create a new project run the command:
 + composer create-project danielbrendel/asatru-php
 
@@ -48,7 +49,7 @@ To create a new project run the command:
 The documentation is located in the /doc directory.
 
 ## Requirements
-+ PHP >= 7.3.8
++ PHP >= 7.4.6
 + PHP PDO extension
 + MySQL when database needed
 

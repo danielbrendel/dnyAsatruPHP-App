@@ -11,7 +11,7 @@
         </div>
 
         <div class="links">
-            <button type="button" class="button btn-col-contact" onclick="javascript:history.back(1);">Go back</button>
+            <button type="button" class="button btn-col-contact" onclick="location.href = '{{ url('/') }}';">Go home</button>
         </div>
     </div>
 </div>

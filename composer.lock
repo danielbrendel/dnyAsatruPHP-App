@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielbrendel/dnyAsatruPHP-Framework.git",
-                "reference": "5c44b0d5be91465338b6b8fb4bc102581b49cce6"
+                "reference": "f13001ec675f89040632b46ee13d3939155d35ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/5c44b0d5be91465338b6b8fb4bc102581b49cce6",
-                "reference": "5c44b0d5be91465338b6b8fb4bc102581b49cce6",
+                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/f13001ec675f89040632b46ee13d3939155d35ee",
+                "reference": "f13001ec675f89040632b46ee13d3939155d35ee",
                 "shasum": ""
             },
             "require": {
@@ -43,7 +43,7 @@
                 "framework",
                 "php"
             ],
-            "time": "2020-09-12T00:00:02+00:00"
+            "time": "2020-09-14T00:04:50+00:00"
         },
         {
             "name": "doctrine/instantiator",

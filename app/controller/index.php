@@ -9,7 +9,7 @@
 /**
  * Example index controller
  */
-class IndexController {
+class IndexController extends BaseController {
 	/**
 	 * Handles URL: /
 	 * 

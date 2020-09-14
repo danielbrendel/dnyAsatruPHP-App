@@ -3,7 +3,7 @@
 /**
  * Example error 404 controller
  */
-class Error404Controller {
+class Error404Controller extends BaseController {
 	/**
 	 * Handles special case: $404
 	 * 
@@ -13,7 +13,7 @@ class Error404Controller {
 	public function index($request)
 	{
 		//Add a log line
-		addLog(LOG_INFO, "Error 404");
+		addLog(ASATRU_LOG_INFO, "Error 404");
 
 		//Generate the 404 view
 		$v = new Asatru\View\ViewHandler();

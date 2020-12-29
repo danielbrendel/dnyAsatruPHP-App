@@ -46,7 +46,7 @@ To create a new project run the command:
 + composer create-project danielbrendel/asatru-php
 
 ## Documentation
-The documentation is available at http://asatru-php.org or http://asatru.danielbrendel.de
+The documentation is available in the /doc directory.
 
 ## Requirements
 + PHP >= 7.4.6

@@ -4,8 +4,6 @@
     Asatru PHP - Example model
 */
 
-use Asatru\Database;
-
 /**
  * Example model class
  */

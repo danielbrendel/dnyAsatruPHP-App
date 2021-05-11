@@ -1,6 +1,5 @@
 <?php
 
-
 /*
     Asatru PHP (dnyAsatruPHP) developed by Daniel Brendel
     
@@ -14,9 +13,9 @@
 */
 
 //If composer is installed then utilize its autoloader
-if (file_exists(__DIR__ . '/vendor/autoload.php')) {
-    require_once __DIR__ . '/vendor/autoload.php';
+if (file_exists(__DIR__ . '/../vendor/autoload.php')) {
+    require_once __DIR__ . '/../vendor/autoload.php';
 }
 
 //Include the framework bootstrap script in order to process the application
-require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/bootstrap.php';
+require_once __DIR__ . '/../vendor/danielbrendel/asatru-php-framework/src/bootstrap.php';

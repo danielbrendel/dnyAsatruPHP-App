@@ -9,12 +9,10 @@
 		
 		<title>{{ ASATRU_FW_NAME }}</title>
 
-		<link rel="stylesheet" href="{{ resource_url() }}/css/app.css">
-
-		<script src="{{ resource_url() }}/js/app.js"></script>
+		<script src="{{ asset('js/app.js') }}"></script>
 	</head>
 	
-	<body style="background-image: url('{{ resource_url() }}/img/bgimg.jpg');">
+	<body style="background-image: url('{{ asset('img/bgimg.jpg') }}');">
 		{%yield%}
 	</body>
 </html>

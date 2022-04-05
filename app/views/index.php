@@ -14,24 +14,24 @@
 
 		<div class="links">
 			<div class="link">
-				<button class="button btn-col-repo" type="button" onclick="window.open('https://github.com/danielbrendel/dnyAsatruPHP-Framework');">Visit on GitHub</button>&nbsp;
+				<a class="button btn-col-repo" href="https://github.com/danielbrendel/dnyAsatruPHP-Framework">Visit on GitHub</a>&nbsp;
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-repo" type="button" onclick="window.open('https://packagist.org/packages/danielbrendel/asatru-php');">Visit on Packagist</button>&nbsp;
+				<a class="button btn-col-repo" href="https://packagist.org/packages/danielbrendel/asatru-php">Visit on Packagist</a>&nbsp;
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-doc" type="button" onclick="location.href='{{ base_url() }}/doc/documentation.pdf'">Documentation</button>
+				<a class="button btn-col-doc" href="javascript:void(0);" onclick="alert('You can obtain the documentation from: {{ base_path('/doc/documentation.pdf') }}');">Documentation</a>
 			</div>
 
 			<div class="link">
-				<button class="button btn-col-contact" type="button" onclick="location.href='mailto:{{ ASATRU_FW_CONTACT }}'">Contact me</button>
+				<a class="button btn-col-contact" href="mailto:{{ ASATRU_FW_CONTACT }}">Contact me</a>
 			</div>
 		</div>
 
 		<div class="footer">
-			<div class="centered">&copy; 2019 - 2021 {{ ASATRU_FW_AUTHOR }} - licensed under the MIT license</div>
+			<div class="centered">&copy; 2019 - 2022 {{ ASATRU_FW_AUTHOR }} - licensed under the MIT license</div>
 		</div>
 	</div>
 </div>

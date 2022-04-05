@@ -7,9 +7,7 @@
 		</div>
 
 		<div class="text">
-			<p>
-				{{ __('app.description') }}
-			</p>
+			{{ __('app.description') }}
 		</div>
 
 		<div class="links">

@@ -1,5 +1,4 @@
 /app/logs
-/app/db
 /vendor
 /node_modules
 .env

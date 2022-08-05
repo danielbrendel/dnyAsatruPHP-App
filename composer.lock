@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielbrendel/dnyAsatruPHP-Framework.git",
-                "reference": "19dbd51e2b0278bad5b6ed53cf2ea40fe4809973"
+                "reference": "efb0b5a71a61f0eeb82ed73494eebe895c773ad6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/19dbd51e2b0278bad5b6ed53cf2ea40fe4809973",
-                "reference": "19dbd51e2b0278bad5b6ed53cf2ea40fe4809973",
+                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/efb0b5a71a61f0eeb82ed73494eebe895c773ad6",
+                "reference": "efb0b5a71a61f0eeb82ed73494eebe895c773ad6",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "issues": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/issues",
                 "source": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/tree/v1.0"
             },
-            "time": "2022-06-20T13:03:50+00:00"
+            "time": "2022-07-19T10:04:30+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -180,16 +180,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.58.0",
+            "version": "2.60.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055"
+                "reference": "00a259ae02b003c563158b54fb6743252b638ea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/97a34af22bde8d0ac20ab34b29d7bfe360902055",
-                "reference": "97a34af22bde8d0ac20ab34b29d7bfe360902055",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/00a259ae02b003c563158b54fb6743252b638ea6",
+                "reference": "00a259ae02b003c563158b54fb6743252b638ea6",
                 "shasum": ""
             },
             "require": {
@@ -204,11 +204,12 @@
                 "doctrine/orm": "^2.7",
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "kylekatarnls/multi-tester": "^2.0",
+                "ondrejmirtes/better-reflection": "*",
                 "phpmd/phpmd": "^2.9",
                 "phpstan/extension-installer": "^1.0",
-                "phpstan/phpstan": "^0.12.54 || ^1.0",
-                "phpunit/php-file-iterator": "^2.0.5",
-                "phpunit/phpunit": "^7.5.20 || ^8.5.23",
+                "phpstan/phpstan": "^0.12.99 || ^1.7.14",
+                "phpunit/php-file-iterator": "^2.0.5 || ^3.0.6",
+                "phpunit/phpunit": "^7.5.20 || ^8.5.26 || ^9.5.20",
                 "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
@@ -265,15 +266,19 @@
             },
             "funding": [
                 {
-                    "url": "https://opencollective.com/Carbon",
-                    "type": "open_collective"
+                    "url": "https://github.com/sponsors/kylekatarnls",
+                    "type": "github"
                 },
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/nesbot/carbon",
+                    "url": "https://opencollective.com/Carbon#sponsor",
+                    "type": "opencollective"
+                },
+                {
+                    "url": "https://tidelift.com/subscription/pkg/packagist-nesbot-carbon?utm_source=packagist-nesbot-carbon&utm_medium=referral&utm_campaign=readme",
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-04-25T19:31:17+00:00"
+            "time": "2022-07-27T15:57:48+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -990,16 +995,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "8.5.27",
+            "version": "8.5.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "df70070f2711b8fe8dcca0797c1239ede8c94be6"
+                "reference": "8f2d1c9c7b30382459c871467853da1a6e44fbd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/df70070f2711b8fe8dcca0797c1239ede8c94be6",
-                "reference": "df70070f2711b8fe8dcca0797c1239ede8c94be6",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/8f2d1c9c7b30382459c871467853da1a6e44fbd4",
+                "reference": "8f2d1c9c7b30382459c871467853da1a6e44fbd4",
                 "shasum": ""
             },
             "require": {
@@ -1068,7 +1073,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.27"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/8.5.28"
             },
             "funding": [
                 {
@@ -1080,7 +1085,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-06-19T12:11:16+00:00"
+            "time": "2022-07-29T09:20:50+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -1979,16 +1984,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.0.9",
+            "version": "v6.0.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "9ba011309943955a3807b8236c17cff3b88f67b6"
+                "reference": "55ffbe4b690156100af1ae42e1f94c5873085bca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/9ba011309943955a3807b8236c17cff3b88f67b6",
-                "reference": "9ba011309943955a3807b8236c17cff3b88f67b6",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/55ffbe4b690156100af1ae42e1f94c5873085bca",
+                "reference": "55ffbe4b690156100af1ae42e1f94c5873085bca",
                 "shasum": ""
             },
             "require": {
@@ -2054,7 +2059,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.0.9"
+                "source": "https://github.com/symfony/translation/tree/v6.0.11"
             },
             "funding": [
                 {
@@ -2070,20 +2075,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-06T14:27:17+00:00"
+            "time": "2022-07-20T13:45:53+00:00"
         },
         {
             "name": "symfony/translation-contracts",
-            "version": "v3.0.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation-contracts.git",
-                "reference": "c4183fc3ef0f0510893cbeedc7718fb5cafc9ac9"
+                "reference": "acbfbb274e730e5a0236f619b6168d9dedb3e282"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/c4183fc3ef0f0510893cbeedc7718fb5cafc9ac9",
-                "reference": "c4183fc3ef0f0510893cbeedc7718fb5cafc9ac9",
+                "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/acbfbb274e730e5a0236f619b6168d9dedb3e282",
+                "reference": "acbfbb274e730e5a0236f619b6168d9dedb3e282",
                 "shasum": ""
             },
             "require": {
@@ -2132,7 +2137,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/translation-contracts/tree/v3.0.1"
+                "source": "https://github.com/symfony/translation-contracts/tree/v3.0.2"
             },
             "funding": [
                 {
@@ -2148,7 +2153,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-02T09:55:41+00:00"
+            "time": "2022-06-27T17:10:44+00:00"
         },
         {
             "name": "theseer/tokenizer",

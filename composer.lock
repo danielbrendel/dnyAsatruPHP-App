@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielbrendel/dnyAsatruPHP-Framework.git",
-                "reference": "b53ce3ba5cfb93ae1b7642c59b138b05479a8135"
+                "reference": "fe3113c4a0ec81236cc3b9656795164ef0caece9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/b53ce3ba5cfb93ae1b7642c59b138b05479a8135",
-                "reference": "b53ce3ba5cfb93ae1b7642c59b138b05479a8135",
+                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/fe3113c4a0ec81236cc3b9656795164ef0caece9",
+                "reference": "fe3113c4a0ec81236cc3b9656795164ef0caece9",
                 "shasum": ""
             },
             "require": {
@@ -46,9 +46,9 @@
             ],
             "support": {
                 "issues": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/issues",
-                "source": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/tree/main"
+                "source": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/tree/v1.0"
             },
-            "time": "2023-03-12T14:02:02+00:00"
+            "time": "2023-04-05T13:50:23+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1763,16 +1763,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v6.2.7",
+            "version": "v6.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "90db1c6138c90527917671cd9ffa9e8b359e3a73"
+                "reference": "817535dbb1721df8b3a8f2489dc7e50bcd6209b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/90db1c6138c90527917671cd9ffa9e8b359e3a73",
-                "reference": "90db1c6138c90527917671cd9ffa9e8b359e3a73",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/817535dbb1721df8b3a8f2489dc7e50bcd6209b5",
+                "reference": "817535dbb1721df8b3a8f2489dc7e50bcd6209b5",
                 "shasum": ""
             },
             "require": {
@@ -1841,7 +1841,7 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/translation/tree/v6.2.7"
+                "source": "https://github.com/symfony/translation/tree/v6.2.8"
             },
             "funding": [
                 {
@@ -1857,7 +1857,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-24T10:42:00+00:00"
+            "time": "2023-03-31T09:14:44+00:00"
         },
         {
             "name": "symfony/translation-contracts",

@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ec96cd41861fe437c8b4f819098b741",
+    "content-hash": "c1843a74fb2df3054aa5f524a8c58394",
     "packages": [
         {
             "name": "danielbrendel/asatru-php-framework",
-            "version": "dev-main",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielbrendel/dnyAsatruPHP-Framework.git",
@@ -26,7 +26,6 @@
                 "phpmailer/phpmailer": "^6.1",
                 "phpunit/phpunit": "^8"
             },
-            "default-branch": true,
             "type": "library",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1994,9 +1993,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "danielbrendel/asatru-php-framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

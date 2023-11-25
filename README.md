@@ -2,7 +2,6 @@
 
 (C) 2019 - 2023 by Daniel Brendel
 
-**Version**: 1.0\
 **Codename**: dnyAsatruPHP\
 **Contact**: dbrendel1988 at gmail dot com\
 **GitHub**: https://github.com/danielbrendel
@@ -59,7 +58,3 @@ The documentation is available in the /doc directory.
 + PHP ^8.0
 + PHP PDO extension
 + MySQL when database needed
-
-## Changelog:
-+ Version 1.0:
-	- (Initial release)

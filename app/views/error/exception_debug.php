@@ -89,24 +89,25 @@
 				position: relative;
 				margin-left: 10px;
                 margin-right: 10px;
-				margin-top: 20px;
-				padding-top: 10px;
-				padding-bottom: 10px;
-				padding-left: 50px;
-				padding-right: 50px;
-				width: 51px;
-				border: 1px solid rgb(51, 63, 104);
-				border-radius: 5px;
-				background-color: rgb(45, 95, 245);
+				margin-top: 30px;
 			}
 			
 			.ex_refresh a {
+                width: 51px;
+                padding-top: 10px;
+				padding-bottom: 10px;
+				padding-left: 50px;
+				padding-right: 50px;
 				color: rgb(235, 235, 235);
+                background-color: rgb(45, 95, 245);
+                border: 1px solid rgb(51, 63, 104);
+				border-radius: 5px;
 				text-decoration: none;
 			}
 			
 			.ex_refresh a:hover {
 				color: rgb(255, 255, 255);
+                background-color: rgb(67, 111, 245);
 				text-decoration: none;
 			}
 

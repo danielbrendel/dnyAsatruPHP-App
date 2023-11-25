@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>Asatru PHP - Exception</title>
 
@@ -25,12 +26,24 @@
 				height: 100%;
 			}
 
+            @media screen and (max-width: 1087px) {
+                .ex_image {
+                    display: none;
+                }
+            }
+
             .ex_box {
                 position: absolute;
 				display: inline-block;
                 width: 69%;
 				height: 100%;
 				overflow-y: auto;
+            }
+
+            @media screen and (max-width: 1087px) {
+                .ex_box {
+                    width: 100%;
+                }
             }
 			
 			.ex_header_num {

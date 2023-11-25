@@ -29,7 +29,7 @@ class IndexController extends BaseController {
 	 * @return Asatru\View\ViewHandler
 	 */
 	public function index($request)
-	{
+	{throw new \Exception('LOL');
 		//Generate and return a view by using the helper
 		return parent::view(['yield', 'index']);
 	}

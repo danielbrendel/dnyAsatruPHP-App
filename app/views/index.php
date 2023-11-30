@@ -12,11 +12,11 @@
 
 		<div class="links">
 			<div class="link">
-				<a class="button btn-col-repo" href="https://github.com/danielbrendel/dnyAsatruPHP-Framework">Visit on GitHub</a>&nbsp;
+				<a class="button btn-col-repo" href="https://github.com/danielbrendel/dnyAsatruPHP-Framework">Visit on GitHub</a>
 			</div>
 
 			<div class="link">
-				<a class="button btn-col-repo" href="https://packagist.org/packages/danielbrendel/asatru-php">Visit on Packagist</a>&nbsp;
+				<a class="button btn-col-repo" href="https://packagist.org/packages/danielbrendel/asatru-php">Visit on Packagist</a>
 			</div>
 
 			<div class="link">

@@ -181,8 +181,8 @@
                     
                     <?php foreach ($stacktrace as $item) { ?>
                         <div class="ex_trace_content_col_<?= (($tableswitch) ? '1' : '2') ?>">
-                            #<?= $stackcounter ?> <?= ((isset($item['file'])) ? $item['file'] : 'internal function') ?><?= (isset($item['line']) ? '(' . $item['line'] . ')' : '') ?>: <?= $item['function'] ?>
-                            <?php if (count($item['args']) > 0) { ?>
+                            #<?= $stackcounter ?> <?= ((isset($item['file'])) ? $item['file'] : 'internal function') ?><?= (isset($item['line']) ? '(' . $item['line'] . ')' : '') ?>: <?= isset($item['class']) ? $item['class'] . '::' : '' ?><?= $item['function'] ?>
+                            <?php if ((isset($item['args'])) && (count($item['args']) > 0)) { ?>
                                 (
                                 <?php $argcnt = 0; ?>
                                 <?php foreach ($item['args'] as $key => $arg) { ?>

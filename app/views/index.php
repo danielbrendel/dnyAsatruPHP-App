@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="link">
-				<a class="button btn-col-doc" href="javascript:void(0);" onclick="alert('You can obtain the documentation from: {{ base_path('/doc/documentation.pdf') }}');">Documentation</a>
+				<a class="button btn-col-doc" href="{{ asset('doc/documentation.pdf') }}">Documentation</a>
 			</div>
 
 			<div class="link">

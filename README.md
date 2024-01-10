@@ -53,7 +53,7 @@ composer create-project danielbrendel/asatru-php
 ```
 
 ## Documentation
-The documentation is available in the /doc directory.
+The documentation is available in the /public/doc directory.
 
 ## Requirements
 + PHP ^8.0

@@ -57,5 +57,5 @@ The documentation is available in the /public/doc directory.
 
 ## Requirements
 + PHP ^8.0
-+ PHP PDO extension
++ Default PHP extensions
 + MySQL when database needed

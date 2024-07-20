@@ -56,6 +56,6 @@ composer create-project danielbrendel/asatru-php
 The documentation is available in the /public/doc directory.
 
 ## Requirements
-+ PHP ^8.0
-+ Default PHP extensions
-+ MySQL when database needed
++ PHP ^8.3
++ MariaDB ^10.4
++ Composer ^2.2

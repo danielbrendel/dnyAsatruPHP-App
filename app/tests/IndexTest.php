@@ -24,7 +24,8 @@ class IndexTest extends Asatru\Testing\Test
      */
     public function testIndex()
     {
-        $this->assertTrue(true);
+        $response = $this->request(Asatru\Testing\Test::REQUEST_GET, '/auth')->getResponse();
+        $this->assertInstanceOf(Asatru\View\ViewHandler::class, $response);
     }
 }
     

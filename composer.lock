@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3c8e17cbb007457076ba42575dacdfc9",
+    "content-hash": "afc316313cdb4154f67f2d0f479dd599",
     "packages": [
         {
             "name": "carbonphp/carbon-doctrine-types",
@@ -77,16 +77,16 @@
         },
         {
             "name": "danielbrendel/asatru-php-framework",
-            "version": "v1.4",
+            "version": "v1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/danielbrendel/dnyAsatruPHP-Framework.git",
-                "reference": "078098f092262feae4becddb9f458406a6a80a44"
+                "reference": "0b53c5fd481ba2256c987bd1010a3314711c2608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/078098f092262feae4becddb9f458406a6a80a44",
-                "reference": "078098f092262feae4becddb9f458406a6a80a44",
+                "url": "https://api.github.com/repos/danielbrendel/dnyAsatruPHP-Framework/zipball/0b53c5fd481ba2256c987bd1010a3314711c2608",
+                "reference": "0b53c5fd481ba2256c987bd1010a3314711c2608",
                 "shasum": ""
             },
             "require": {
@@ -114,9 +114,9 @@
             ],
             "support": {
                 "issues": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/issues",
-                "source": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/tree/v1.4"
+                "source": "https://github.com/danielbrendel/dnyAsatruPHP-Framework/tree/v1.5"
             },
-            "time": "2025-01-05T02:01:04+00:00"
+            "time": "2025-01-05T21:02:50+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -183,12 +183,12 @@
             "version": "3.8.4",
             "source": {
                 "type": "git",
-                "url": "https://github.com/briannesbitt/Carbon.git",
+                "url": "https://github.com/CarbonPHP/carbon.git",
                 "reference": "129700ed449b1f02d70272d2ac802357c8c30c58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/129700ed449b1f02d70272d2ac802357c8c30c58",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/129700ed449b1f02d70272d2ac802357c8c30c58",
                 "reference": "129700ed449b1f02d70272d2ac802357c8c30c58",
                 "shasum": ""
             },

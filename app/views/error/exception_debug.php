@@ -19,7 +19,7 @@
 			.ex_image {
 				position: relative;
 				display: inline-block;
-				background-image: url('<?= asset('img/pattern.jpg')?>');
+				background-image: url('data:<?= mime_content_type(app_path() . '/resources/assets/pattern.jpg') ?>;base64,<?= base64_encode(file_get_contents(app_path() . '/resources/assets/pattern.jpg')) ?>');
 				background-size: cover;
 				background-repeat: no-repeat;
 				width: 30%;

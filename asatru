@@ -45,6 +45,9 @@ require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/helper.ph
 //Include CLI handler
 require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/console.php';
 
+//Require localization
+require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/locale.php';
+
 //Require database handler
 require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/database.php';
 

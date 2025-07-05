@@ -31,6 +31,6 @@ class IndexController extends BaseController {
 	public function index($request)
 	{
 		//Generate and return a view by using the helper
-		return parent::view(['yield', 'index']);
+		return parent::view(['content', 'index']);
 	}
 }

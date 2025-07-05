@@ -13,6 +13,6 @@
 	</head>
 	
 	<body style="background-image: url('{{ asset('img/bgimg.jpg') }}');">
-		{%yield%}
+		{%content%}
 	</body>
 </html>

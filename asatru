@@ -48,6 +48,9 @@ require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/console.p
 //Require localization
 require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/locale.php';
 
+//Require view components
+require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/view.php';
+
 //Require database handler
 require_once __DIR__ . '/vendor/danielbrendel/asatru-php-framework/src/database.php';
 

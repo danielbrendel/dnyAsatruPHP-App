@@ -1,7 +1,7 @@
 <?php
 
 /*
-    Asatru PHP - Module
+    Asatru PHP - Module 'ExampleModule'
 */
 
 /**

@@ -1,5 +1,3 @@
-<!-- Example yield file -->
-
 <div class="outer">
 	<div class="inner">
 		<div class="title">

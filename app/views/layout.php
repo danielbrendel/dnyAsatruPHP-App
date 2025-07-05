@@ -1,7 +1,4 @@
 <!doctype html>
-<!--
-	Example layout file
--->
 <html lang="{{ getLocale() }}">
 	<head>
 		<meta charset="utf-8">

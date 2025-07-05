@@ -1,7 +1,7 @@
 <?php
 
 /*
-    Asatru PHP - Model
+    Asatru PHP - Model 'Example' associated with migration 'Example_Migration'
 */
 
 /**

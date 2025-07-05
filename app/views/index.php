@@ -14,7 +14,7 @@
 			</div>
 
 			<div class="link">
-				<a class="button btn-col-repo" href="https://packagist.org/packages/danielbrendel/asatru-php">Visit on Packagist</a>
+				<a class="button btn-col-repo" href="https://packagist.org/packages/danielbrendel/asatru-php">Packagist</a>
 			</div>
 
 			<div class="link">

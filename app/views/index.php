@@ -10,7 +10,7 @@
 
 		<div class="links">
 			<div class="link">
-				<a class="button btn-col-repo" href="https://github.com/danielbrendel/dnyAsatruPHP-Framework">Visit on GitHub</a>
+				<a class="button btn-col-repo" href="https://github.com/danielbrendel/dnyAsatruPHP-Framework">GitHub</a>
 			</div>
 
 			<div class="link">

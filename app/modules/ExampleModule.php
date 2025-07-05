@@ -8,12 +8,7 @@
  * This class represents your module
  */
 class ExampleModule {
-    public function __construct()
-    {
-        //
-    }
-
-    public function __destruct()
+    public static function example()
     {
         //
     }

@@ -22,7 +22,7 @@
 			</div>
 
 			<div class="link">
-				<a class="button btn-col-contact" href="mailto:{{ ASATRU_FW_CONTACT }}">Contact me</a>
+				<a class="button btn-col-contact" href="mailto:{{ ASATRU_FW_CONTACT }}">Contact</a>
 			</div>
 		</div>
 

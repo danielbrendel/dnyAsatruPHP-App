@@ -9,7 +9,7 @@
 		<script src="{{ asset('js/app.js') }}"></script>
 	</head>
 	
-	<body style="background-image: url('{{ asset('img/bgimg.jpg') }}');">
+	<body>
 		{%content%}
 	</body>
 </html>

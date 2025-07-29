@@ -6,7 +6,7 @@
 
 		<div class="content">
 			<div class="content-message">
-				<div class="content-message-icon">🚀</div>
+				<div class="content-message-icon">{!! html_entity_decode('&#x1F680') !!}</div>
 				<div class="content-message-text">{{ __('app.description') }}</div>
 			</div>
 

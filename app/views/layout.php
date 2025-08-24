@@ -6,6 +6,7 @@
 		
 		<title>{{ ASATRU_FW_NAME }} - The lightweight MVC web framework</title>
 
+		<link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}"/>
 		<script src="{{ asset('js/app.js') }}"></script>
 	</head>
 	

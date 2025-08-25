@@ -1,7 +1,5 @@
-/**
- * app.js
- * 
- * Put here your application specific JavaScript implementations
- */
+/*
+    app.js
+*/
 
- import './../sass/app.scss';
+import './../sass/app.scss';

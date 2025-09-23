@@ -35,4 +35,27 @@ class BaseController extends Asatru\Controller\Controller {
 	{
 		return view($this->layout, $yields, $attr);
 	}
+
+	/**
+	 * Respond and exit helper
+	 * 
+	 * @param $content
+	 * @return never
+	 */
+	public function respond($content, $httpcode = 200, $conttype = '')
+	{
+		if (strlen($conttype) > 0) {
+			header('Content-Type: ' . $conttype);
+		}
+
+		http_response_code($httpcode);
+
+		if ($content instanceof Asatru\View\ViewInterface) {
+			echo $content->out(true);
+		} else {
+			echo $content;
+		}
+
+		exit();
+	}
 }

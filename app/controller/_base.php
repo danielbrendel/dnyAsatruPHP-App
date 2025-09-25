@@ -58,4 +58,22 @@ class BaseController extends Asatru\Controller\Controller {
 
 		exit();
 	}
+
+	/**
+	 * Query HTTP header value if available
+	 * 
+	 * @param $key
+	 * @param $fallback
+	 * @return mixed
+	 */
+	public function header($key, $fallback = null)
+	{
+		$key = str_replace('-', '_', strtoupper($key));
+
+		if (isset($_SERVER['HTTP_' . $key])) {
+			return $_SERVER['HTTP_' . $key];
+		}
+
+		return $fallback;
+	}
 }
